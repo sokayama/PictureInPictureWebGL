@@ -1,0 +1,21 @@
+{
+  "name": "pictureinpicture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^4.16.5"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.22.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}
