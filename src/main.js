@@ -46,9 +46,17 @@ const main = ()=>{
         // video.src = "./zGOZoM77ilTEnSpv.mp4";
         createPictureInPicture(video);
     });
-
     const body = document.body;
     body.appendChild(button);
+
+
+    const description = document.createElement("div");
+    description.textContent = "WebGLでCanvasに出力 -> Canvasを変換してvideoタグに入れる -> PictureInPictureでフロートする";
+    const memo = document.createElement("div");
+    memo.textContent = "キャラを踊らせたりゲームしたりもできるはず";
+
+    body.appendChild(description);
+    body.appendChild(memo);
 
     const webglUtil = new WebGLUtil();
     webglUtil.init("canvas");
